@@ -1,6 +1,6 @@
 const Card = (props) => {
     return  (
-        <div className="w-full h-fit p-3 flex flex-col space-y-4 bg-white/30">
+        <div className="w-full h-fit p-3 flex flex-col space-y-4 bg-white/90">
             {props.icon}
             <h1 className="text-center font-bold text-xl cursor-pointer">{props.title}</h1>
             <font className="text-center">{props.content}</font>
