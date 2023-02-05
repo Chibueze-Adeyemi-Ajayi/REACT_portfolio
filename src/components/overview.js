@@ -4,7 +4,7 @@ const Overview = () => {
     return (
         <section className="w-full h-full flex flex-row space-x-4 p-12 mt-[60px]">
             {/* left tab */}
-            <section className="lg:w-[400px] md:w-[300px] h-fit my-auto flex flex-col space-y-8">
+            <section className="lg:w-[500px] md:w-[400px] h-fit my-auto flex flex-col space-y-8">
                 <img className="w-56 h-56 mx-auto rounded-full" src={jilo_dev}></img>
                 <font className="text-2xl mx-auto text-white/90 font-bold">Jilo Developer</font>
                 <font className="mx-auto text-white/90 text-xl font-extralight">Ajayi Chibueze Adeyemi</font>
@@ -34,6 +34,29 @@ const Overview = () => {
                 <quote className="text-white/90 italic text-sm text-center">" <b>Thoughtful thinking</b> "</quote>
             </section>
             {/* right tab */}
+            <section className="w-full p-6 h-full flex">
+                <div className="w-full h-fit flex flex-col space-y-4 p-6 rounded-xl border border-white/30">
+                    <h1 className="w-full h-10 text-2xl text-white/90 font-bold border-b border-white/30">Jilo Developer</h1>
+                    <font className="text-white/90">Professional software developer, having great expertise in building software solutions like: APIs, 
+                        cross-platform or native mobile or web applications, using cutting edge infrastructures like:
+                    </font>
+                    <ul className="text-white/90 list-disc px-6">
+                        <li>Azure</li>
+                        <li>AWS</li>
+                        <li>GitHub</li>
+                        <li>Heroku</li>
+                        <li>Apache</li>
+                        <li>Tomcat</li>
+                        <li>GIT</li>
+                        <li>Docker</li>
+                        <li>Kubernetes and so on – adopting all standardized DevOps practices.</li>
+                    </ul>
+                    <font className="text-white/90">
+                        My level of expertise is of no doubt, as I have and by experience (4 years) worked in agile environments building sophisticated microservice architectures, 
+                        monolithic architectures, RESTful architectures, SPAs, and lots more.
+                    </font>
+                </div>
+            </section>
         </section>
     )
 }
