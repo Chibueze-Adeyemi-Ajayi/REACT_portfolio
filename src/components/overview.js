@@ -41,16 +41,20 @@ const Overview = () => {
                         I am a software engineer with over 4 years of experience in both backend and frontend software design using Python, 
                         NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
                     </font>
-                    <ul className="text-white/90 px-6">
-                        <li>Azure</li>
-                        <li>AWS</li>
-                        <li>GitHub</li>
-                        <li>Heroku</li>
-                        <li>Apache</li>
-                        <li>Tomcat</li>
-                        <li>GIT</li>
-                        <li>Docker</li>
-                        <li>Kubernetes and so on – adopting all standardized DevOps practices.</li>
+                    <ul className="text-white/90 px-6 list-[square] flex flex-row space-x-16">
+                        <div>
+                            <li>Azure</li>
+                            <li>AWS</li>
+                            <li>GitHub</li>
+                            <li>Heroku</li>
+                            <li>Apache</li>
+                        </div>
+                        <div>
+                            <li>Tomcat</li>
+                            <li>GIT</li>
+                            <li>Docker</li>
+                            <li>Kubernetes and so on – adopting all standardized DevOps practices.</li>
+                        </div>
                     </ul>
                 </div>
             </section>
