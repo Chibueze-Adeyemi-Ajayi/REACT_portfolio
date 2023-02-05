@@ -55,6 +55,10 @@ const Overview = () => {
                             <li><b>Work Status: </b>Available</li>
                         </div>
                     </ul>
+                    <font className="text-white/90">
+                        Additionally, I am excellent with mobile technologies like Android and IOS platforms. Combining my skillsets together,
+                        I have worked on powerful RESTful driven mobile applications designed using the industrial microservice architectures standard.
+                    </font>
                 </div>
             </section>
         </section>
