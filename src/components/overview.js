@@ -37,7 +37,21 @@ const Overview = () => {
             <section className="w-full p-6 h-full flex">
                 <div className="w-full h-fit flex flex-col space-y-4 p-6 rounded-xl border border-white/30">
                     <h1 className="w-full h-10 text-2xl text-white/90 font-bold border-b border-white/30">Jilo Developer</h1>
-                   
+                    <font className="text-white/90">
+                        I am a software engineer with over 4 years of experience in both backend and frontend software design using Python, 
+                        NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
+                    </font>
+                    <ul className="text-white/90 list-disc px-6">
+                        <li>Azure</li>
+                        <li>AWS</li>
+                        <li>GitHub</li>
+                        <li>Heroku</li>
+                        <li>Apache</li>
+                        <li>Tomcat</li>
+                        <li>GIT</li>
+                        <li>Docker</li>
+                        <li>Kubernetes and so on – adopting all standardized DevOps practices.</li>
+                    </ul>
                 </div>
             </section>
         </section>

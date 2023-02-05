@@ -13,7 +13,7 @@ const Resume = () => {
             </section>
             <section className="w-full h-full flex">
                 <div className="w-full h-fit flex flex-col space-y-4 p-6 rounded-xl border border-white/30">
-                <h1 className="w-full h-10 text-2xl text-white/90 font-bold border-b border-white/30">Jilo Developer</h1>
+                <h1 className="w-full h-10 text-2xl text-white/90 font-bold border-b border-white/30">Resume</h1>
                     <font className="text-white/90">Professional software developer, having great expertise in building software solutions like: APIs, 
                         cross-platform or native mobile or web applications, using cutting edge infrastructures like:
                     </font>
