@@ -17,21 +17,30 @@ const Resume = () => {
                     <font className="text-white/90">Professional software developer, having great expertise in building software solutions like: APIs, 
                         cross-platform or native mobile or web applications, using cutting edge infrastructures like:
                     </font>
-                    <ul className="text-white/90 list-disc px-6">
-                        <li>Azure</li>
-                        <li>AWS</li>
-                        <li>GitHub</li>
-                        <li>Heroku</li>
-                        <li>Apache</li>
-                        <li>Tomcat</li>
-                        <li>GIT</li>
-                        <li>Docker</li>
-                        <li>Kubernetes and so on – adopting all standardized DevOps practices.</li>
+                    <ul className="text-white/90 grid grid-cols-3 list-disc px-6">
+                        <div>
+                            <li>Azure</li>
+                            <li>AWS</li>
+                            <li>GitHub</li>
+                        </div>
+                        <div>
+                            <li>Heroku</li>
+                            <li>Apache</li>
+                            <li>Tomcat</li>
+                        </div>
+                        <div>
+                            <li>GIT</li>
+                            <li>Docker</li>
+                            <li>Kubernetes and so on – adopting all standardized DevOps practices.</li>
+                        </div>
                     </ul>
                     <font className="text-white/90">
                         My level of expertise is of no doubt, as I have and by experience (4 years) worked in agile environments building sophisticated microservice architectures, 
                         monolithic architectures, RESTful architectures, SPAs, and lots more.
                     </font>
+                    <section>
+                        <h3 className="text-white/90 font-bold text-xl border-y border-white/30 py-3">Professional Experience</h3>
+                    </section>
                 </div>
             </section>
         </section>
