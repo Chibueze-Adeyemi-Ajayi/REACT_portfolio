@@ -41,19 +41,18 @@ const Overview = () => {
                         I am a software engineer with over 4 years of experience in both backend and frontend software design using Python, 
                         NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
                     </font>
-                    <ul className="text-white/90 px-6 list-[square] flex flex-row space-x-16">
+                    <ul className="text-white/90 w-full px-6 list-[square] grid grid-cols-2 space-x-16">
                         <div>
-                            <li>Azure</li>
-                            <li>AWS</li>
-                            <li>GitHub</li>
-                            <li>Heroku</li>
-                            <li>Apache</li>
+                            <li><b>Fullname:</b> Ajayi Chibueze Adeyemi</li>
+                            <li><b>Birthday:</b> April, 27th</li>
+                            <li><b>Email:</b> <a href="mailto:chibuezeadeyemi@gmail.com">chibuezeadeyemi@gmail.com</a> </li>
+                            <li><b>Phone:</b> <a href="tel:+2348131869009">+2348131869009</a></li>
+                            <li><b>Location:</b> Nigeria</li>
                         </div>
                         <div>
-                            <li>Tomcat</li>
-                            <li>GIT</li>
-                            <li>Docker</li>
-                            <li>Kubernetes and so on – adopting all standardized DevOps practices.</li>
+                            <li><b>Alias:</b> Jilo developer</li>
+                            <li><b>Degree: </b> B.Eng <small>Computer Engineering&nbsp;(Ongoing)</small></li>
+                            <li><b>Work Status: </b>Available</li>
                         </div>
                     </ul>
                 </div>
