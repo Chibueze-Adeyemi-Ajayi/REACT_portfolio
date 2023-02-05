@@ -44,7 +44,7 @@ const Projects = () => {
                     <Card active={true} link="https://language-processor.netlify.app/" source_code="https://github.com/Chibueze-Adeyemi-Ajayi/LanguageProcessor" language="Dart" color="bg-cyan-300" title="Language Processor" content="A machine learning mobile application, which makes use of Natural Language Processing to understand human language then translate it to any choosen language" />
                     <Card active={true} link="https://up-project.netlify.app/" source_code="https://github.com/Chibueze-Adeyemi-Ajayi/dapp_minting" language="JavaScript" color="bg-yellow-300" title="ERC20 Token Minting" content="A web3 based web applications, which connects to the Ethereum blockchain via Metamask. The main purpose of the app is for minting tokens over the blockchain" />
                     <Card active={false} source_code="https://github.com/Chibueze-Adeyemi-Ajayi/php-ussd" language="Php" color="bg-blue-900" title="USSD Application" content="A simple Unstructured Supplementary Service Data (USSD) application built with PHP. The application has been deployed to the sandwish africastalking testnet" />
-                    
+                    <Card active={false} source_code="https://github.com/Chibueze-Adeyemi-Ajayi/cam-AI" language="C++" color="bg-pink-500" title="CAM AI" content="A flutter mobile application, which harnesses the power of computer vision to recognises texts, scan barcodes, also detect several pody position during a pose detection mode." />
                 </div>
             </section>
         </scetion>
