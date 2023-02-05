@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './components/nav';
 import Overview from './components/overview';
 import Resume from './components/resume';
+import Skill from './components/skill';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Overview />
       {/* resume */}
       <Resume />
+      {/* Skill set */}
+      <Skill />
     </div>
   );
 }
