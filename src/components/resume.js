@@ -57,6 +57,25 @@ const Resume = () => {
                             </div>
                         </ul>
                     </section>
+                    <hr className="border-0 bg-white/30 h-[1px]"></hr>
+                    <section className="w-full h-full flex flex-col space-y-4">
+                        <h3 className="text-white/90">Crediometer <small>Mobile developer Intern (2022 - 3 months)</small></h3>
+                        <ul className="text-white/90 grid grid-cols-2 list-disc p-3 gap-6">
+                            <div>
+                                <li>Delivered high quality codes that passed quality assurance test, user acceptance test, etc.</li>
+                                <li>Documented engineering designs for inhouse and client projects.</li>
+                                <li>Delivered mobile applications built on server or serverless architecture.</li>
+                                <li>Built and extended engineering architectural patterns.</li>  
+                            </div>
+                            <div>
+                                <li>Built professional web interfaces, with high quality backend infrastructures either on microservice or monolithic architectures.</li>
+                                <li>Built and extended APIs on industrial RESTful architectural standards.</li>
+                                <li>Managed and analyzed company’s database.</li>
+                                <li>Supported migration to, and sustainment of, cloud-based platforms</li>
+                                <li>Worked with science and development teams to develop and troubleshoot website interfaces</li>
+                            </div>
+                        </ul>
+                    </section>
                 </div>
             </section>
         </section>
