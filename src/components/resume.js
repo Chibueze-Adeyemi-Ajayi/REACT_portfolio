@@ -57,44 +57,6 @@ const Resume = () => {
                             </div>
                         </ul>
                     </section>
-                    <section className="w-full h-full flex flex-col space-y-4">
-                        <h3 className="text-white/90 font-bold text-xl border-y border-white/30 py-3">Professional Experience</h3>
-                        <h3 className="text-white/90">Crediometer <small>Mobile developer intern (2022 - 3 Months)</small></h3>
-                        <ul className="text-white/90 grid grid-cols-2 list-disc p-3 gap-6">
-                            <div>
-                                <li><section className="w-full h-full flex flex-col space-y-4">
-                        <h3 className="text-white/90 font-bold text-xl border-y border-white/30 py-3">Professional Experience</h3>
-                        <h3 className="text-white/90">T21Services <small>Lead Software Developer (2022 - till date)</small></h3>
-                        <ul className="text-white/90 grid grid-cols-2 list-disc p-3 gap-6">
-                            <div>
-                                <li>Translated feature pitch into technical specifications.</li>
-                                <li>Developed mobile apps in unison with co-interns and designers.</li>
-                                <li>Reviewing teammate’s pull requests with a mindset of learning more and increase code quality.</li>
-                                <li>Iterated on the tools used for automated app build and release.</li>  
-                            </div>
-                            <div>
-                                <li>Collected, analyzed, reviewed, documented, and communicated mobile business needs and requirements.</li>
-                                <li>Collaborated with UX Professionals, Product Development Engineers, Product Managers and Marketers, Quality Assurance groups, 3rd-party vendors, Senior Leadership, to get necessary task done timely</li>
-                                <li>Analyzed and provided remedies for software errors and malfunctions in a timely and accurate fashion, providing status reports where required.</li>
-                                <li>Contributed to the maintenance of existing internal and external app releases, including debugging code defects and adapting to the latest infrastructure</li>
-                                <li>Worked with science and development teams to develop and troubleshoot website interfaces</li>
-                            </div>
-                        </ul>
-                    </section>
-                            </li>
-                                <li>Documented engineering designs for inhouse and client projects.</li>
-                                <li>Delivered mobile applications built on server or serverless architecture.</li>
-                                <li>Built and extended engineering architectural patterns.</li>  
-                            </div>
-                            <div>
-                                <li>Built professional web interfaces, with high quality backend infrastructures either on microservice or monolithic architectures.</li>
-                                <li>Built and extended APIs on industrial RESTful architectural standards.</li>
-                                <li>Managed and analyzed company’s database.</li>
-                                <li>Supported migration to, and sustainment of, cloud-based platforms</li>
-                                <li>Worked with science and development teams to develop and troubleshoot website interfaces</li>
-                            </div>
-                        </ul>
-                    </section>
                 </div>
             </section>
         </section>
