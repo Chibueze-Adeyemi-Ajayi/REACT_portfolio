@@ -39,7 +39,10 @@ const Projects = () => {
             <section className="w-full h-full border-l border-white/30">
                 <h1 className="text-white/90 font-bold px-4 py-2 border-y border-white/30 text-2xl">Live Projects</h1>
                 <div className="w-full h-full p-6 grid grid-cols-2 gap-6">
-                    <Card language="JavaScript" color="bg-yellow-300" title="ReactChatSystem" content="This chat application serves the purpose of a company's workspace. Entire frontend built on REACT JS and the backend API on Laravel PHP" />
+                    <Card active={true} link="https://workspace.t21services.co.uk" source_code="https://github.com/Chibueze-Adeyemi-Ajayi/ReactChatSystem" language="JavaScript" color="bg-yellow-300" title="ReactChatSystem" content="This chat application serves the purpose of a company's workspace. Entire frontend built on REACT JS and the backend API on Laravel PHP" />
+                    <Card active={false} source_code="https://github.com/Crediometer/credio_ajo" language="Dart" color="bg-cyan-300" title="Credio Ajo App" content="Fully fledge contribution (ajo) app was worked upon with my team during the days of my internship with crediometer. Flutter was the framework used to achieve this." />
+                    <Card active={true} link="https://language-processor.netlify.app/" source_code="https://github.com/Chibueze-Adeyemi-Ajayi/LanguageProcessor" language="Dart" color="bg-cyan-300" title="Language Processor" content="This chat application serves the purpose of a company's workspace. Entire frontend built on REACT JS and the backend API on Laravel PHP" />
+                    
                 </div>
             </section>
         </scetion>
