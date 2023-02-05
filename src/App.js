@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './components/nav';
 import Overview from './components/overview';
+import Resume from './components/resume';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Nav/>
       {/* overview */}
       <Overview />
+      {/* resume */}
+      <Resume />
     </div>
   );
 }
