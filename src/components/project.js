@@ -36,7 +36,7 @@ const Projects = () => {
                     <a target="_blank" href="https://github.com/Chibueze-Adeyemi-Ajayi" className="w-full h-10 text-white/90 font-extrabold text-center pt-2 border border-white/30 rounded-md">View Contributions</a>
                 </div>
             </section>
-            <section className="w-full h-full border-l border-white/30">
+            <section className="w-full flex flex-col h-full border-l border-white/30">
                 <h1 className="text-white/90 font-bold px-4 py-2 border-y border-white/30 text-2xl">Live Projects</h1>
                 <div className="w-full h-full p-6 grid grid-cols-2 gap-6">
                     <Card active={true} link="https://workspace.t21services.co.uk" source_code="https://github.com/Chibueze-Adeyemi-Ajayi/ReactChatSystem" language="JavaScript" color="bg-yellow-300" title="ReactChatSystem" content="This web application serves the purpose of a company's workspace. Entire frontend built on REACT JS and the backend API on Laravel PHP" />
@@ -46,6 +46,7 @@ const Projects = () => {
                     <Card active={false} source_code="https://github.com/Chibueze-Adeyemi-Ajayi/php-ussd" language="Php" color="bg-blue-900" title="USSD Application" content="A simple Unstructured Supplementary Service Data (USSD) application built with PHP. The application has been deployed to the sandwish africastalking testnet" />
                     <Card active={false} source_code="https://github.com/Chibueze-Adeyemi-Ajayi/cam-AI" language="C++" color="bg-pink-500" title="CAM AI" content="A flutter mobile application, which harnesses the power of computer vision to recognises texts, scan barcodes, also detect several pody position during a pose detection mode." />
                 </div>
+                <a href="https://github.com/Chibueze-Adeyemi-Ajayi" target="_blank" className="h-fit py-1 text-md mt-2 mx-auto px-16 border border-white/30 rounded-full text-center text-white/90">More Projects on Github</a>
             </section>
         </scetion>
     );
