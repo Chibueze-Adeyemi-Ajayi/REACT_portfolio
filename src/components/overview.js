@@ -41,7 +41,7 @@ const Overview = () => {
                         I am a software engineer with over 4 years of experience in both backend and frontend software design using Python, 
                         NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
                     </font>
-                    <ul className="text-white/90 list-disc px-6">
+                    <ul className="text-white/90 px-6">
                         <li>Azure</li>
                         <li>AWS</li>
                         <li>GitHub</li>
