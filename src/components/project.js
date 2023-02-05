@@ -1,3 +1,11 @@
+const Card = (props) => {
+    return (
+        <div className="w-full h-fit p-3 border border-white/20 rounded-lg">
+            <h1 className=" text-md">{props.title}</h1>
+        </div>
+    )
+}
+
 const Projects = () => {
     return (
         <scetion className="w-full h-full p-6 flex">
@@ -13,8 +21,8 @@ const Projects = () => {
             </section>
             <section className="w-full h-full border-l border-white/30">
                 <h1 className="text-white/90 font-bold px-4 py-2 border-y border-white/30 text-2xl">Live Projects</h1>
-                <div className="w-full h-full grid grid-cols-2 gap-6">
-
+                <div className="w-full h-full p-6 grid grid-cols-2 gap-6">
+                    <Card title="ReactChatSystem" />
                 </div>
             </section>
         </scetion>
