@@ -57,7 +57,7 @@ const Overview = () => {
                     </ul>
                     <font className="text-white/90">
                         Additionally, I am excellent with mobile technologies like Android and IOS platforms. Combining my skillsets together,
-                        I have worked on powerful RESTful driven mobile applications designed using the industrial microservice architectures standard.
+                        I have worked on powerful RESTful driven mobile applications designed using the industrial microservice architectural standard.
                     </font>
                 </div>
             </section>
