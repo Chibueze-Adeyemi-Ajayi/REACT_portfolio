@@ -1,9 +1,11 @@
 import './App.css';
+import Nav from './components/nav';
 
 function App() {
   return (
-    <div className="w-full h-full bg-red-400">
-      Hola
+    <div className="w-full h-full bg-inherit">
+      {/* nav bar */}
+      <Nav/>
     </div>
   );
 }
