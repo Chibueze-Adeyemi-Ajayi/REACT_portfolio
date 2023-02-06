@@ -1,4 +1,5 @@
 import $ from "jquery"
+import { setPos } from "../assets/js/nav";
 
 const SideBar = () => {
     return (
@@ -33,7 +34,8 @@ const SideBar = () => {
                 <div className="w-fit h-fit my-auto flex-col space-y-10">
                     <span onClick={
                         () => {
-                            $("#side_bar").animate({left: "-300px"})
+                            $("#side_bar").animate({left: "-300px"});
+                            setPos(-300);
                             $([document.documentElement, document.body]).animate({
                                 scrollTop: $("#overview").offset().top
                             }, 500);
@@ -46,6 +48,8 @@ const SideBar = () => {
                     </span>
                     <span onClick={
                         () => {
+                            $("#side_bar").animate({left: "-300px"});
+                            setPos(-300);
                             $([document.documentElement, document.body]).animate({
                                 scrollTop: $("#resume").offset().top
                             }, 500);
@@ -58,6 +62,8 @@ const SideBar = () => {
                     </span>
                     <span onClick={
                         () => {
+                            $("#side_bar").animate({left: "-300px"});
+                            setPos(-300);
                             $([document.documentElement, document.body]).animate({
                                 scrollTop: $("#skill").offset().top
                             }, 500);
@@ -70,6 +76,8 @@ const SideBar = () => {
                     </span>
                     <span onClick={
                         () => {
+                            $("#side_bar").animate({left: "-300px"});
+                            setPos(-300);
                             $([document.documentElement, document.body]).animate({
                                 scrollTop: $("#project").offset().top
                             }, 500);
@@ -82,6 +90,8 @@ const SideBar = () => {
                     </span>
                     <span onClick={
                         () => {
+                            $("#side_bar").animate({left: "-300px"});
+                            setPos(-300);
                             $([document.documentElement, document.body]).animate({
                                 scrollTop: $("#contact").offset().top
                             }, 500);

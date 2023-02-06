@@ -1,6 +1,7 @@
 import $ from "jquery"
 import { useEffect } from "react";
 import menu from "../assets/img/menu.png"
+import { getPos, setPos } from "../assets/js/nav";
 
 var nav_pos = -300;
 
@@ -9,11 +10,12 @@ const Nav = () => {
         nav_pos = -300
     });
     return (
-        <nav className="w-full bg-[#333] fixed top-0 left-0 z-40 h-[40px] grid md:grid-cols-3 border-b border-[#444] px-10">
+        <nav className="w-full bg-[#333] fixed top-0 left-0 z-30 h-[40px] grid md:grid-cols-3 border-b border-[#444] px-10">
             <font className="text-white/90 flex md:space-x-0 space-x-4 font-bold my-auto">
                 <img onClick={
                     () => {
-                        nav_pos = nav_pos < 0 ? 0 : -300;
+                        nav_pos = getPos();
+                        nav_pos = nav_pos < 0 ? 0 : -300; setPos(nav_pos);
                         $("#side_bar").animate({left: nav_pos + "px"})
                     }
                 } className="w-5 flex md:hidden h-5 my-auto" src={menu}></img>
