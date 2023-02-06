@@ -56,7 +56,7 @@ const Overview = () => {
                         </div>
                     </ul>
                     <font className="text-white/90">
-                        Additionally, I am excellent with mobile technologies like Android and IOS platforms. Combining my skillsets together,
+                        Additionally, I am excellent with mobile technologies like Android and IOS platforms. Combining my skillsets,
                         I have worked on powerful RESTful driven mobile applications designed using the industrial microservice architectural standard.
                     </font>
                 </div>
