@@ -16,7 +16,7 @@ const Contact = () => {
             <section className="w-full h-full flex flex-col space-y-4">
                 <h1 className="text-2xl font-extrabold text-white/90 py-3 pl-6 border-y border-white/30">Let's get in touch</h1>
             </section>
-            <section className="w-full p-6 h-full grid grid-cols-2 gap-6">
+            <section className="w-full md:p-6 h-full grid md:grid-cols-2 gap-6">
                 <Card icon={
                     <svg className="w-7 mx-auto my-auto h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                         <path className="fill-green-600" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/>
@@ -54,7 +54,7 @@ const Contact = () => {
                     <a className="underline text-red-400" href="mailto:chibuezeadeyemi@gmail.com">Email Me</a>
                 </div>} />
                 <div className="w-full items-center h-fit p-6 flex flex-row space-x-4 border rounded-md border-white/30">
-                    <font className="text-6xl font-bold text-white/90">Thank you</font>
+                    <font className="md:text-6xl text-4xl font-bold text-white/90">Thank you</font>
                     <svg className="w-14 my-auto h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                         <path className="fill-yellow-400" d="M0 256c0 137 111 248 248 248s248-111 248-248S385 8 248 8 0 119 0 256zm200-48c0 17.7-14.3 32-32 32s-32-14.3-32-32 14.3-32 32-32 32 14.3 32 32zm158.5 16.5c-14.8-13.2-46.2-13.2-61 0L288 233c-8.3 7.4-21.6.4-19.8-10.8 4-25.2 34.2-42.1 59.9-42.1S384 197 388 222.2c1.7 11.1-11.4 18.3-19.8 10.8l-9.7-8.5zM157.8 325.8C180.2 352.7 213 368 248 368s67.8-15.4 90.2-42.2c13.6-16.2 38.1 4.2 24.6 20.5C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.5-16.3 11.2-36.7 24.6-20.4z"/>
                     </svg>
