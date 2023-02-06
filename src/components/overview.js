@@ -2,7 +2,7 @@ import jilo_dev from "../assets/img/jilo_dev.jpg";
 
 const Overview = () => {
     return (
-        <section className="w-full h-full flex flex-row space-x-4 p-12 mt-[60px]">
+        <section id="overview" className="w-full h-full flex flex-row space-x-4 p-12 mt-[60px]">
             {/* left tab */}
             <section className="lg:w-[500px] md:w-[400px] h-fit my-auto flex flex-col space-y-8">
                 <img className="w-56 h-56 mx-auto rounded-full" src={jilo_dev}></img>

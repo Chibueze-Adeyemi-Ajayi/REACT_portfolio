@@ -4,7 +4,9 @@ const Nav = () => {
             <font className="text-white/90 font-bold my-auto">Ajayi Chibueze Adeyemi</font>
             <div className="w-full col-span-2 flex">
                 <div className="w-fit h-fit mx-auto my-auto flex space-x-5">
-                    <span className="w-fit cursor-pointer h-fit my-auto flex space-x-2">
+                    <span onClick={
+                        scrollTo("overview")
+                    } className="w-fit cursor-pointer h-fit my-auto flex space-x-2">
                         <svg className="w-3 h-3 my-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path className="fill-white/90" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/>
                         </svg>

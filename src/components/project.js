@@ -25,7 +25,7 @@ const Card = (props) => {
 
 const Projects = () => {
     return (
-        <scetion className="w-full h-full p-6 flex space-x-4">
+        <scetion id="project" className="w-full h-full p-6 flex space-x-4">
             <section className="lg:w-[500px] md:w-[400px] h-fit my-auto flex flex-col space-y-8">
                 <div className="w-full h-fit my-auto flex flex-col space-y-5">
                     <svg className="w-64 h-64 mx-auto my-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512">
