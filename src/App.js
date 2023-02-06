@@ -5,6 +5,7 @@ import Nav from './components/nav';
 import Overview from './components/overview';
 import Projects from './components/project';
 import Resume from './components/resume';
+import SideBar from './components/side-bar';
 import Skill from './components/skill';
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <Contact />   
       {/* footer */}
       <Footer />
+      {/* side bar */}
+      <SideBar />
     </div>
   );
 }
