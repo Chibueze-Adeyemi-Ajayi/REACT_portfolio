@@ -1,9 +1,11 @@
 import $ from "jquery"
+import menu from "../assets/img/menu.png"
 
 const Nav = () => {
     return (
         <nav className="w-full bg-[#333] fixed top-0 left-0 z-40 h-[40px] grid md:grid-cols-3 border-b border-[#444] px-10">
             <font className="text-white/90 flex md:space-x-0 space-x-4 font-bold my-auto">
+                <img className="w-5 flex md:hidden h-5 my-auto" src={menu}></img>
                 <font>Ajayi Chibueze Adeyemi</font>
             </font>
             <div className="w-full col-span-2 hidden md:flex">

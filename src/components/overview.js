@@ -31,7 +31,7 @@ const Overview = () => {
                     </a>
                 </div>
                 <hr className="border-0 md:h-[1px] bg-white/30"></hr>
-                <quote className="text-white/90 italic md:flex hidden text-sm text-center">" <b>Thoughtful thinking</b> "</quote>
+                <quote className="text-white/90 italic md:block hidden text-sm text-center">" <b>Thoughtful thinking</b> "</quote>
             </section>
             {/* right tab */}
             <section className="w-full md:p-6 h-full flex">
