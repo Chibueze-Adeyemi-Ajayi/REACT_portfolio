@@ -1,5 +1,6 @@
 import './App.css';
 import Contact from './components/contact';
+import Footer from './components/footer';
 import Nav from './components/nav';
 import Overview from './components/overview';
 import Projects from './components/project';
@@ -21,6 +22,8 @@ function App() {
       <Projects />
       {/* contact */}
       <Contact />   
+      {/* footer */}
+      <Footer />
     </div>
   );
 }
