@@ -1,4 +1,4 @@
-// impo
+// impor
 
 const Card = (props) => {
     return (
