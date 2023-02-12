@@ -1,4 +1,4 @@
-// this react compone
+// this react componen
 
 const Card = (props) => {
     return  (
