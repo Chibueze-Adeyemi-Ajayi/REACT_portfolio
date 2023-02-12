@@ -1,4 +1,4 @@
-// my overvi
+// my overvie
 
 import jilo_dev from "../assets/img/jilo_dev.jpg";
 
