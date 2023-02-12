@@ -1,4 +1,4 @@
-// this is the sidebar for 
+// this is the sidebar for m
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
