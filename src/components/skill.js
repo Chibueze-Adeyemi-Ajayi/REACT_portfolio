@@ -1,4 +1,4 @@
-// this react component showcases my skillse
+// this react component showcases my skillset
 
 const Card = (props) => {
     return  (
