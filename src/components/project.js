@@ -1,4 +1,4 @@
-// important pr
+// important pro
 
 const Card = (props) => {
     return (
