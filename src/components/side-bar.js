@@ -1,4 +1,4 @@
-// this is the sideb
+// this is the sideba
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
