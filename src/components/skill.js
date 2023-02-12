@@ -1,4 +1,4 @@
-// this react component sho
+// this react component show
 
 const Card = (props) => {
     return  (
