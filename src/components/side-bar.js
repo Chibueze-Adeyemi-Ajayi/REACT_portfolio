@@ -1,4 +1,4 @@
-// this is the sidebar for mo
+// this is the sidebar for mob
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
