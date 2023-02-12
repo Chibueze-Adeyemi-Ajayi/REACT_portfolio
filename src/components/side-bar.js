@@ -1,4 +1,4 @@
-// th
+// thi
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
