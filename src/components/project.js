@@ -1,4 +1,4 @@
-// important projects i have worke
+// important projects i have worked
 
 const Card = (props) => {
     return (
