@@ -1,4 +1,4 @@
-// this is the sidebar 
+// this is the sidebar f
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
