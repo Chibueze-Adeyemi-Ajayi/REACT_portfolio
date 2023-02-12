@@ -1,4 +1,4 @@
-// my overview page dis
+// my overview page disp
 
 import jilo_dev from "../assets/img/jilo_dev.jpg";
 
