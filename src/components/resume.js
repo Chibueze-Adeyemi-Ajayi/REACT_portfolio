@@ -1,5 +1,5 @@
 import cv from "../assets/pdf/cv.pdf";
-// online summary of
+// online summary of 
 const Resume = () => {
     return (
         <section id="resume" className="w-full h-full flex flex-col-reverse md:flex-row md:space-x-4 p-6 md:p-12">
