@@ -1,4 +1,4 @@
-// my o
+// my ov
 
 import jilo_dev from "../assets/img/jilo_dev.jpg";
 
