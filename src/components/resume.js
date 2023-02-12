@@ -1,6 +1,6 @@
 import cv from "../assets/pdf/cv.pdf";
 // online summary of my cv
-// it has the option to download pdf ve
+// it has the option to download pdf ver
 const Resume = () => {
     return (
         <section id="resume" className="w-full h-full flex flex-col-reverse md:flex-row md:space-x-4 p-6 md:p-12">
