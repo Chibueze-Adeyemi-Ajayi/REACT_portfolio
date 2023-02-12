@@ -1,4 +1,4 @@
-// this is the sid
+// this is the side
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
