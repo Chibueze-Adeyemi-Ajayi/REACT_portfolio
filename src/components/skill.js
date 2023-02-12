@@ -1,4 +1,4 @@
-// th
+// thi
 
 const Card = (props) => {
     return  (
