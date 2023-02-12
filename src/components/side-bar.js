@@ -1,4 +1,4 @@
-// this is the sidebar for mobile devic
+// this is the sidebar for mobile device
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
