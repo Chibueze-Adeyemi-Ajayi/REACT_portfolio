@@ -1,7 +1,7 @@
 // important projects i have worked upon
 
 const Card = (props) => {
-    return (
+    return (//
         <div className="w-full h-fit space-y-2 flex flex-col p-3 border border-white/20 rounded-lg">
             <h1 className="text-white/90 text-md font-bold text-md">{props.title}</h1>
             <font className="text-sm text-white/70">{props.content}</font>
