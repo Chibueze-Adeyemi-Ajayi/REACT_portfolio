@@ -1,4 +1,4 @@
-// this is the sidebar for mobi
+// this is the sidebar for mobil
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
