@@ -1,4 +1,4 @@
-// this react component showcases my s
+// this react component showcases my sk
 
 const Card = (props) => {
     return  (
