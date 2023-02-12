@@ -1,4 +1,4 @@
-// import
+// importa
 
 const Card = (props) => {
     return (
