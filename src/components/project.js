@@ -1,3 +1,5 @@
+// 
+
 const Card = (props) => {
     return (
         <div className="w-full h-fit space-y-2 flex flex-col p-3 border border-white/20 rounded-lg">
