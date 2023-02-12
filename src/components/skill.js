@@ -1,4 +1,4 @@
-// this rea
+// this reac
 
 const Card = (props) => {
     return  (
