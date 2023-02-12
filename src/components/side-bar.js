@@ -1,4 +1,4 @@
-// this is the s
+// this is the si
 
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
