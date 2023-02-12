@@ -1,4 +1,4 @@
-// im
+// imp
 
 const Card = (props) => {
     return (
