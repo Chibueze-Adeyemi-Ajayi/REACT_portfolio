@@ -8,6 +8,8 @@ import Resume from './components/resume';
 import SideBar from './components/side-bar';
 import Skill from './components/skill';
 
+// 
+
 function App() {
   return (
     <div className="w-full h-full bg-inherit">
