@@ -8,7 +8,7 @@ import Resume from './components/resume';
 import SideBar from './components/side-bar';
 import Skill from './components/skill';
 
-// my portfolio application built REACT JavaScript frame
+// my portfolio application built REACT JavaScript framew
 
 function App() {
   return (
