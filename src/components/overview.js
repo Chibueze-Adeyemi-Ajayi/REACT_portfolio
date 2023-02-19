@@ -53,7 +53,7 @@ const Overview = () => {
                         </div>
                         <div>
                             <li><b>Alias:</b> Jilo developer</li>
-                            <li><b>Degree: </b> B.Eng <small>Computer Engineering&nbsp;(Ongoing)</small></li>
+                            <li><b>Degree: </b> B.Eng <small>Computer Engineering</small></li>
                             <li><b>Work Status: </b>Available</li>
                         </div>
                     </ul>
