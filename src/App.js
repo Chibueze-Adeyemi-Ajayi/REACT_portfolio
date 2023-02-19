@@ -8,7 +8,7 @@ import Resume from './components/resume';
 import SideBar from './components/side-bar';
 import Skill from './components/skill';
 
-// my portfolio application built REA
+// my portfolio application built REAC
 
 function App() {
   return (
