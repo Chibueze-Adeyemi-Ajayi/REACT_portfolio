@@ -4,7 +4,7 @@ import menu from "../assets/img/menu.png"
 import { getPos, setPos } from "../assets/js/nav";
 
 var nav_pos = -300;
-// this
+// this 
 const Nav = () => {
     useEffect(() => {
         nav_pos = -300
