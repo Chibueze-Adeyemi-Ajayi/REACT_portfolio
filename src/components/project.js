@@ -1,6 +1,6 @@
 // important projects i have worked upon
 
-// display car
+// display card
 const Card = (props) => {
     return (//return widget
         <div className="w-full h-fit space-y-2 flex flex-col p-3 border border-white/20 rounded-lg">
