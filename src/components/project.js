@@ -1,6 +1,6 @@
 // important projects i have worked upon
 
-// di
+// dis
 const Card = (props) => {
     return (//return widget
         <div className="w-full h-fit space-y-2 flex flex-col p-3 border border-white/20 rounded-lg">
