@@ -25,7 +25,7 @@ const Card = (props) => {
         </div>
     )
 }
-// project componen
+// project component
 const Projects = () => {
     return (
         <scetion id="project" className="w-full h-full p-6 flex md:flex-row flex-col md:space-x-4">
