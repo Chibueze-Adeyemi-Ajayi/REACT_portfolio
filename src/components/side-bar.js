@@ -3,7 +3,7 @@
 import $ from "jquery"
 import { setPos } from "../assets/js/nav";
 
-// Sidebar w
+// Sidebar wi
 const SideBar = () => {
     return (
         <section id="side_bar" className="w-[300px] overflow-y-auto p-6 md:hidden fixed top-0 left-[-300px] h-[100%] bg-[#444]">
