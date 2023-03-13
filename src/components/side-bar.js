@@ -37,7 +37,7 @@ const SideBar = () => {
                 <div className="w-fit h-fit my-auto flex-col space-y-10">
                     <span onClick={
                         () => {
-                            // a
+                            // an
                             $("#side_bar").animate({left: "-300px"});
                             setPos(-300);
                             $([document.documentElement, document.body]).animate({
