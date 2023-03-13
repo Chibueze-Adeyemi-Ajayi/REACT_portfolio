@@ -51,7 +51,7 @@ const SideBar = () => {
                         <font className="text-white/90 text-sm">Overview</font>
                     </span>
                     <span onClick={
-                        // close sidebar
+                        // close side bar
                         () => {
                             $("#side_bar").animate({left: "-300px"});
                             setPos(-300);
