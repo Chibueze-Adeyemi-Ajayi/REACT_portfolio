@@ -6,7 +6,7 @@ import { setPos } from "../assets/js/nav";
 // Sidebar widget
 const SideBar = () => {
     return (
-        // application si
+        // application sid
         <section id="side_bar" className="w-[300px] overflow-y-auto p-6 md:hidden fixed top-0 left-[-300px] h-[100%] bg-[#444]">
             <section className="lg:w-[500px] md:w-[400px] w-full h-fit my-auto flex flex-col space-y-8">
                 <div className="w-full h-fit my-auto flex flex-col space-y-5">
