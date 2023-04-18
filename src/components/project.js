@@ -54,7 +54,7 @@ const Projects = () => {
                             </svg>
                         </section>
                     </div>
-                    <font className="mx-auto text-white/90 text-xl font-extralight">Over 1k Contributions</font>
+                    <font className="mx-auto text-white/90 text-xl font-extralight">Over 4.5k Contributions</font>
                     <a target="_blank" href="https://github.com/Chibueze-Adeyemi-Ajayi" className="w-full h-10 text-white/90 font-extrabold text-center pt-2 border border-white/30 rounded-md">View Contributions</a>
                 </div>
             </section>
