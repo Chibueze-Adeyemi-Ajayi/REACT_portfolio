@@ -1,6 +1,6 @@
 // my overview page displaying my basic information
 
-//  importing my imageb
+//  importing my image
 import jilo_dev from "../assets/img/jilo_dev.jpg";
 
 const Overview = () => {
