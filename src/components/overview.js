@@ -41,7 +41,7 @@ const Overview = () => {
                     <h1 className="w-full md:flex hidden h-10 text-2xl text-white/90 font-bold border-b border-white/30">Jilo Developer</h1>
                     <font className="text-white/90">
                         I am a software engineer with over 4 years of experience in both backend and frontend software design using Python, 
-                        NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), Java(Sprin) CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
+                        NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), Java(Spring) CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
                     </font>
                     <ul className="text-white/90 w-full px-6 list-[square] grid md:grid-cols-2 md:space-x-16">
                         <div>
