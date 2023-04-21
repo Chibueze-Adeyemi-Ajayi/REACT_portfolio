@@ -55,7 +55,7 @@ const Overview = () => {
                             <li><b>Phone:</b> <a href="tel:+2348131869009">+2348131869009</a></li>
                             <li><b>Location:</b> Nigeria</li>
                         </div>
-                        {/* other informations abou */}
+                        {/* other informations about */}
                         <div>
                             <li><b>Alias:</b> Jilo developer</li>
                             <li><b>Degree: </b> B.Eng <small>Computer Engineering</small></li>
