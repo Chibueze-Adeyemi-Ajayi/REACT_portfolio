@@ -46,7 +46,7 @@ const Overview = () => {
                         I am a software engineer with over 4 years of experience in both backend and frontend software design using Python, 
                         NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), Java(Spring-Boot) CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
                     </font>
-                    {/* contact s */}
+                    {/* contact se */}
                     <ul className="text-white/90 w-full px-6 list-[square] grid md:grid-cols-2 md:space-x-16">
                         <div>
                             <li><b>Fullname:</b> Ajayi Chibueze Adeyemi</li>
