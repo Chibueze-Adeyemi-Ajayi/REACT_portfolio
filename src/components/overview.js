@@ -41,6 +41,7 @@ const Overview = () => {
             <section className="w-full md:p-6 h-full flex">
                 <div className="w-full h-fit flex flex-col space-y-4 p-6 rounded-xl border border-white/30">
                     <h1 className="w-full md:flex hidden h-10 text-2xl text-white/90 font-bold border-b border-white/30">Jilo Developer</h1>
+                    
                     <font className="text-white/90">
                         I am a software engineer with over 4 years of experience in both backend and frontend software design using Python, 
                         NodeJS, PHP(Laravel, YII, Symphony), Dart(Flutter), Javascript(REACT), Java(Spring-Boot) CSS(Bootstrap, TailwindCSS), HTML, and other related technologies.
