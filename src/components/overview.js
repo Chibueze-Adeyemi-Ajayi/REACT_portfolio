@@ -3,7 +3,7 @@
 //  importing my image 
 import jilo_dev from "../assets/img/jilo_dev.jpg";
 
-// react js compon
+// react js compone
 const Overview = () => {
     return (
         <section id="overview" className="w-full h-full flex flex-col md:flex-row md:space-x-4 p-6 md:p-12 mt-[60px]">
