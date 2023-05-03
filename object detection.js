@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
 const app = express();
 
 // Set up a POST endpoint to receive detected content and store it in the database
-app.post('/detected-content', (req, res) => {
+app.post('https://object-detection-api-xaqi.onrender.com', (req, res) => {
   const { content } = req.body; // Assuming content is sent in the request body
   const sql = 'INSERT INTO detected_content (content) VALUES (?)';
   connection.query(sql, [content], (error, results, fields) => {
