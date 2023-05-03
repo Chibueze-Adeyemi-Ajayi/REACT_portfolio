@@ -15,7 +15,7 @@ const app = express();
 // Set up a POST endpoint to receive detected content and store it in the database
 app.post('https://object-detection-api-xaqi.onrender.com', (req, res) => {
   const { content } = req.body; // Assuming content is sent in the request body
-  const sql = 'INSERT INTO detected_content (content) VALUES (?)';
+  const sql = 'INSERT INTO radiobox_object detection (content) VALUES (?)';
   connection.query(sql, [content], (error, results, fields) => {
     if (error) {
       console.error(error);
